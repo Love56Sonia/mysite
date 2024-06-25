@@ -1,0 +1,14 @@
+hearder{
+    height: 250px;
+   background-color: lightyellow;
+}
+nav{
+	width: 20%;
+	background-color: darkgreen;
+	float: left;
+}
+main{
+	width: 60%;
+	background-color: pink;
+	float: left;
+}

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<title>Forms</title>
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form1">
+	<input type="text" name="text" class="in1">
+	<input type="text" name="text1" size="20" maxlength="50" value="Введіть текст" class="in1">
+	<input type="text" name="text2" size="30" maxlength="50" value="Введення даних заблоковано" disabled class="in1">
+	<input type="text" name="text3" size="30" maxlength="50" value="Інформацію тут можно тільки читати" readonly class="in1">
+	<input type="password" name="password" class="in1">
+	<p>Вкажіть вашу стать</p>
+	<input type="radio" name="gender" class="in2" value="male"><span class="s1">чоловіча</span>
+	<input type="radio" name="gender" class="in2" value="female"><span class="s1">жіноча</span>
+	<input type="radio" name="gender" class="in2" value="none"><span class="s1">не хочу відповідати</span>
+	<p>Яку мову бажаєте вивчати</p>
+	<input type="checkbox" name="ling1" value="eng" class="in3"><span class="s2">Англійску</span>
+	<input type="checkbox" name="ling1" value="sp" class="in3"><span class="s2">Іспаньска</span>
+	<input type="checkbox" name="ling1" value="fr" class="in3"><span class="s2">Французька</span>
+	<input type="checkbox" name="ling1" value="ua" checked class="in3"><span class="s22">Українстка</span>
+	<br>
+	<input type="submit" name="submit" value="Підтвердити">
+	<br>
+	<input type="reset" name="reset">
+	<br>
+	<input type="button" name="button" value="Запуск">
+	<br>
+	<button>
+		<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="50" align="absmiddle">
+		відправити ліста
+	</button>
+	<br>
+	<input type="file" name="dowload">
+	<br>
+	<textarea cols="20" rows="3" wrap="off"></textarea>
+	<textarea cols="30" rows="5" wrap="virtual"></textarea>
+	<textarea cols="50" rows="7" wrap="physical"></textarea>
+	<br>
+	<select>
+		<option value="eng">Англійська</option>
+		<option value="sp">Іспаньска</option>
+		<option value="fr">Французька</option>
+		<option value="ua">Українстка</option>
+	</select>
+	<br>
+	<select size="2">
+		<option value="eng" selected>Англійська</option>
+		<option value="sp">Іспаньска</option>
+		<option value="fr">Французька</option>
+		<option value="ua">Українстка</option>
+	</select>
+	<br>
+	<select size="4" multiple>
+		<option value="eng" selected>Англійська</option>
+		<option value="sp">Іспаньска</option>
+		<option value="fr">Французька</option>
+		<option value="ua">Українстка</option>
+	</select>
+	<br>
+	<select size="4" multiple class="se1">
+		<option value="eng" selected><span class="s3">Англійська</span></option>
+		<option value="sp"><span class="s3">Іспаньска</span></option>
+		<option value="fr"><span class="s3">Французька</span></option>
+		<option value="ua"><span class="s3">Українстка</span></option>
+	</select>
+</form>
+</body>
+</html>

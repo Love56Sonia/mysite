@@ -1,0 +1,39 @@
+body{
+	background-color: lightcyan;
+	background-image: url(https://media.idownloadblog.com/wp-content/uploads/2016/11/Animated-GIF-Banana.gif);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;	
+}
+p{
+	color: purple;
+	font-size: 1in;
+background-image: url(https://www.shutterstock.com/shutterstock/photos/1040229760/display_1500/stock-photo-pink-bright-texture-for-designer-background-gentle-classic-texture-colorful-background-colorful-1040229760.jpg);
+	background-size: cover;
+}
+#d1{
+	width: 500px;
+	height: 500px;
+	background-image: url(https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg);
+background-size: cover;
+border: 30px groove pink;
+}
+#d2{
+	width: 400px;
+	height: 400px;
+	border: 30px solid;
+	border-image: linear-gradient(purple, pink) 30;
+	margin: 30px;
+}
+#img1{
+	border-radius: 25%;
+	border: 30px double brown;
+}
+#img2{
+	width: 50%;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 10 10 30px pink;
+}
